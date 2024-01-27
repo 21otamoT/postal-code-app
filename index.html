@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APIを叩くセミナー成果物</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flame">
+    <h1><span></span>APIを叩くアプリを作ろう</h1>
+    <div>
+      <h2>住所検索</h2>
+      <input id="input" oninput="getData()" placeholder="郵便番号">
+      <table>
+        <tr>
+          <th><span>s</span><span>t</span><span>a</span><span>t</span><span>u</span><span>s</span></th>
+          <th id="status">-</th>
+        </tr>
+        <tr>
+          <th><span>住</span><span>所</span></th>
+          <th id="address">-</th>
+        </tr>
+        <tr>
+          <th><span>フ</span><span>リ</span><span>ガ</span><span>ナ</span></th>
+          <th id="kana">-</th>
+        </tr>
+        <tr>
+          <th>メッセージ</th>
+          <th id="message">-</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script type=text/javascript src="./script.js"></script>
+</body>
+</html>
